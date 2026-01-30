@@ -50,6 +50,7 @@ def fetch_data():
 
 # Shutdown the pool gracefully when the app closes
 PostgresqlConnection.close_all()
+```
 🏗️ Architectural Patterns Used
 Singleton: Guarantees a single point of access to the pool.
 
